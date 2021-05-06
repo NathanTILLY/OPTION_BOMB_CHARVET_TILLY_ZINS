@@ -46,7 +46,11 @@ while continuer:
 
         perso = Perso(p1_droite, p1_gauche, p1_haut, p1_bas, niveau)
 
+        perso2 = Perso(p2_droite, p2_gauche, p2_haut, p2_bas, niveau)
+
         bombe = Bomb(image_bombe, niveau, perso)
+
+        bombe2 = Bomb(image_bombe2, niveau, perso2)
 
     while continuer_jeu:
 
