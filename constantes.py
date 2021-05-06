@@ -16,3 +16,13 @@ p1_droite = "images/J1_rightkey.png"
 p1_gauche = "images/J1_leftkey.png"
 p1_haut = "images/J1_upkey.png"
 p1_bas = "images/J1_downkey.png"
+
+p2_droite = "images/J2_rightkey.png"
+p2_gauche = "images/J2_leftkey.png"
+p2_haut = "images/J2_upkey.png"
+p2_bas = "images/J2_downkey.png"
+
+flamme_d = "images/explod.png"
+flamme_g = "images/explog.png"
+flamme_h = "images/exploh.png"
+flamme_b = "images/explob.png"
