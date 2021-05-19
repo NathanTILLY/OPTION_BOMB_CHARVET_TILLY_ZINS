@@ -6,11 +6,13 @@ titre_fenetre = "Bomberman"
 
 image_accueil = "images/accueil_bomberman.png"
 
-image_bloc_destructible = "images/bloc_destructible.png"
+image_brick = "images/bloc_destructible.png"
 image_fond = "images/accueil_bomberman.png"
-image_bloc_indestructible = "images/bloc_indestructible.png"
+image_pillier = "images/bloc_indestructible.png"
 image_bombe = "images/bomb.png"
+image_bombe2 = "images/bombJ2.png"
 image_sol = "images/sol.png"
+image_explosion = "images/explodstart.png"
 
 p1_droite = "images/J1_rightkey.png"
 p1_gauche = "images/J1_leftkey.png"
