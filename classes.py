@@ -197,6 +197,12 @@ class Bomb:
         self._time_created = datetime.now()
         self.explosion = 0
 
+    def autoriser_poser(self):
+        if timedelta(seconds=3.5) <= datetime.now() - self._time_created:
+            return True
+        else:
+            return False
+
     def exploser(self):
         """Explosion de la bombe"""
 
@@ -275,6 +281,12 @@ class Bomb2:
         self.case_y = int(y / taille_sprite)
         self._time_created = datetime.now()
         self.explosion = 0
+
+    def autoriser_poser(self):
+        if timedelta(seconds=3.5) <= datetime.now() - self._time_created:
+            return True
+        else:
+            return False
 
     def exploser(self):
         """Explosion de la bombe"""

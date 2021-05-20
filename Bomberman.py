@@ -67,7 +67,8 @@ while continuer:
                 if event.key == K_ESCAPE:
                     continuer_jeu = 0
                 if event.key == K_SPACE:
-                    bombe.poser(perso.x, perso.y, image_bombe)
+                    if bombe.autoriser_poser():
+                        bombe.poser(perso.x, perso.y, image_bombe)
 
             #commandes J1
 
